@@ -89,6 +89,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+*venv/
 
 # Spyder project settings
 .spyderproject
@@ -102,3 +103,15 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+#Rhistory files
+.Rhistory 
+
+# R html notebooks 
+*.nb.html 
+
+# CAERS/EBGM datasets (otherwise we really swamp the repo)
+caers_dataset.csv 
+optimised_params_caers_vigipy.csv
+vigipy_openebgm_comparison.csv 
+difference.csv
